@@ -1,0 +1,21 @@
+name: Account request
+description: Delete your account, get a copy of your data, correct your data or get back into your account.
+title: Account request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This issue is public.** Do not include your email address, your name, your password or other personal data.
+
+        We will reply here and tell you how to confirm that the account is yours.
+  - type: dropdown
+    id: request
+    attributes:
+      label: What do you want us to do?
+      options:
+        - Delete my account and its data
+        - Send me a copy of my data
+        - Correct my data
+        - Help me get back into my account
+    validations:
+      required: true

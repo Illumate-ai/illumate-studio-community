@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/Illumate-ai/illumate-studio-community/discussions
+    about: Ask questions and share ideas with other people.
+  - name: Report a security problem
+    url: https://github.com/Illumate-ai/illumate-studio-community/security/advisories/new
+    about: Send a private report. Do not open a public issue for a security problem.

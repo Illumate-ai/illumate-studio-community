@@ -1,0 +1,38 @@
+name: Bug report
+description: Tell us about something in Illumate Studio that does not work.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: This issue is public. Do not include your email address, your password or other personal data.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Tell us what you saw, and what you expected to see.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to show the problem
+      placeholder: |
+        1. Open the editor.
+        2. Select the Sofa starter.
+        3. Change the seat width.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Chrome on a laptop
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Make sure that a screenshot does not show your email address or other private data.
+    validations:
+      required: false
